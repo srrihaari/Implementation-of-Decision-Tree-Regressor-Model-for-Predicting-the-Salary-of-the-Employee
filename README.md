@@ -18,7 +18,7 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 8. Apply to new unknown values. 
 
 ## Program:
-py
+```
 /*
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 Developed by: Sri hari R
@@ -52,6 +52,7 @@ dt.predict([[5,6]])
 plt.figure(figsize=(20, 8))
 plot_tree(dt, feature_names=x.columns, filled=True)
 plt.show()
+```
 
 ## Output:
 # HEAD(), INFO() & NULL():
